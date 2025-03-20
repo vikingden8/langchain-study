@@ -5,8 +5,10 @@ from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import PydanticToolsParser
 from pydantic import BaseModel, Field
 
+
 # take environment variables from .env.
 load_dotenv(os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env"))  
+
 
 ALIYUN_API_KEY = os.environ["ALIYUN_API_KEY"]
 

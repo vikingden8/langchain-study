@@ -58,7 +58,7 @@ def main():
                      temperature=0)
     tools = [Add, Multiply]
     llm_with_tools = llm.bind_tools(tools)
-    query = "What is 3 * 12?"
+    # query = "What is 3 * 12?"
     # result = llm_with_tools.invoke(query)
     # print(result)
 
